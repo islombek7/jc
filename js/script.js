@@ -13,12 +13,12 @@
 //             tabs[index].classList.add('is-active');
 //         });
     // });
-let nam = prompt('What is your name');
-let surname = prompt('What is your surname');
-let age = prompt('How old are you');
-let job = prompt('What is you job');
+// let nam = prompt('What is your name');
+// let surname = prompt('What is your surname');
+// let age = prompt('How old are you');
+// let job = prompt('What is you job');
 
-console.log('Name: ' + nam + ' Surname: ' + surname + ' Age: ' + age + ' Job: ' + job);
+// console.log('Name: ' + nam + ' Surname: ' + surname + ' Age: ' + age + ' Job: ' + job);
 
 
 // let week = prompt(' HAFTA KUNINI YOZING ')
@@ -51,14 +51,14 @@ console.log('Name: ' + nam + ' Surname: ' + surname + ' Age: ' + age + ' Job: ' 
 
 
 
-// let name = 'Islombek'
-// let surname = 'Mustofakhulov'
-// let age = '16'
-// let school = '41-maktab'
-// let clas = '10'
-// let job = 'pupil'
+let name = 'Islombek'
+let surname = 'Mustofakhulov'
+let age = '16'
+let school = '41-maktab'
+let clas = '10'
+let job = 'pupil'
 
-// console.log('My name is ' + name + ' ;    My surname is ' + surname + ' ;    I am ' + age + ' ;    My school is ' + school + ' ;    I am ' + clas + ' class ' + ' ;    I am ' + job );
+console.log('My name is ' + name + ' ;    My surname is ' + surname + ' ;    I am ' + age + ' ;    My school is ' + school + ' ;    I am ' + clas + ' class ' + ' ;    I am ' + job );
 
 
 
