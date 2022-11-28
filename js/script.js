@@ -12,13 +12,13 @@
 //             contents[index].classList.add('is-active');
 //             tabs[index].classList.add('is-active');
 //         });
-//     });
-// let nam = prompt('What is your name');
-// let surname = prompt('What is your surname');
-// let age = prompt('How old are you');
-// let job = prompt('What is you job');
+    // });
+let nam = prompt('What is your name');
+let surname = prompt('What is your surname');
+let age = prompt('How old are you');
+let job = prompt('What is you job');
 
-// console.log('Name: ' + nam + ' Surname: ' + surname + ' Age: ' + age + ' Job: ' + job);
+console.log('Name: ' + nam + ' Surname: ' + surname + ' Age: ' + age + ' Job: ' + job);
 
 
 // let week = prompt(' HAFTA KUNINI YOZING ')
@@ -104,3 +104,4 @@
 //     }
 //     num2++;
 // }
+
