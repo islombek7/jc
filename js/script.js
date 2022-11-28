@@ -19,29 +19,88 @@
 // let job = prompt('What is you job');
 
 // console.log('Name: ' + nam + ' Surname: ' + surname + ' Age: ' + age + ' Job: ' + job);
-let week = prompt(' HAFTA KUNINI YOZING ')
-switch (week)
-{
-     case 'MONDAY':
-        console.log('TUESDAY');
-        break;
-     case 'TUESDAY':
-        console.log('WEDNESDAY')
-        break;
-    case 'WEDNESDAY':
-        console.log('THURSDAY');
-        break;
-    case 'THURSDAY':
-        console.log('FRIDAY');
-        break;
-    case 'FRIDAY':
-        console.log('SATURDAY');
-        break;
-    case 'SATURDAY':
-        console.log('SUNDAY');
-        break;
-    case 'SUNDAY':
-        console.log('MONDAY');
-        break;
-}
 
+
+// let week = prompt(' HAFTA KUNINI YOZING ')
+// switch (week)
+// {
+//      case 'MONDAY' , '2':
+//         console.log('TUESDAY');
+//         break;
+//      case 'TUESDAY' , '3':
+//         console.log('WEDNESDAY');
+//         break;
+//     case 'WEDNESDAY' , '4':
+//         console.log('THURSDAY');
+//         break;
+//     case 'THURSDAY' , '5':
+//         console.log('FRIDAY');
+//         break;
+//     case 'FRIDAY' , '6':
+//         console.log('SATURDAY');
+//         break;
+//     case 'SATURDAY' , '7':
+//         console.log('SUNDAY');
+//         break;
+//     case 'SUNDAY' , '1':
+//         console.log('MONDAY');
+//         break;
+//         default:
+//             alert('hafta uni emas');
+// }
+
+
+
+// let name = 'Islombek'
+// let surname = 'Mustofakhulov'
+// let age = '16'
+// let school = '41-maktab'
+// let clas = '10'
+// let job = 'pupil'
+
+// console.log('My name is ' + name + ' ;    My surname is ' + surname + ' ;    I am ' + age + ' ;    My school is ' + school + ' ;    I am ' + clas + ' class ' + ' ;    I am ' + job );
+
+
+
+
+
+
+
+
+
+
+
+
+// let num = 0;
+// do{
+//     console.log('hello' , num);
+//     num++;
+// }while(num < 30);
+
+
+
+
+// let str = Number(prompt('Yoshingizni kiriting'));
+
+// switch (str){
+//   case 22:
+//         alertb ('o`quvchi');
+//     break;
+//     default:
+//         alert('bunday yosh yoq');
+// }
+
+
+
+// let num2 = 0;
+// while (num2 < 3){
+//     let num = +prompt('your code');
+//     switch(num){
+//         case 1234:
+//             num2 = 3;
+//             break;
+//             default:
+//                 console.log('error');
+//     }
+//     num2++;
+// }
