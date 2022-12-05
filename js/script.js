@@ -155,6 +155,10 @@ let personalMovieDB = {
 let sawFilm = prompt('Oxirgi ko`rgan filimlaringizdan biri?');
 let priceFilm = +prompt('Uni qancha baholagan bo`lardingiz?');
 
- console.log(personalMovieDB.movies + sawFilm + ' : ' + priceFilm);
+
+personalMovieDB.movies[sawFilm] = priceFilm;
+
+
+console.log(personalMovieDB.movies);
 
 
