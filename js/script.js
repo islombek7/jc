@@ -51,14 +51,14 @@
 
 
 
-let name = 'Islombek'
-let surname = 'Mustofakhulov'
-let age = '16'
-let school = '41-maktab'
-let clas = '10'
-let job = 'pupil'
+// let name = 'Islombek';
+// let surname = 'Mustofakhulov';
+// let age = '16';
+// let school = '41-maktab';
+// let clas = '10';
+// let job = 'pupil';
 
-console.log('My name is ' + name + ' ;    My surname is ' + surname + ' ;    I am ' + age + ' ;    My school is ' + school + ' ;    I am ' + clas + ' class ' + ' ;    I am ' + job );
+// console.log('My name is ' + name + ' ;    My surname is ' + surname + ' ;    I am ' + age + ' ;    My school is ' + school + ' ;    I am ' + clas + ' class ' + ' ;    I am ' + job );
 
 
 
@@ -104,4 +104,57 @@ console.log('My name is ' + name + ' ;    My surname is ' + surname + ' ;    I a
 //     }
 //     num2++;
 // }
+ 
+
+// let age = prompt('jfvn');
+// if(age > 16){
+//     console.log('bbs');
+// }else if(age < 16){
+//    console.log('sj');
+// }else if(age = 16){
+//     console.log('erer');
+// }else{
+//     console.log('d');
+// }
+
+
+
+
+
+// var str = prompt('Ismingizni kiriting');
+ 
+
+// if(str == 'islombek' || str == 'Islombek'){
+//     console.log('Islombek');
+// }else{
+//     console.log('ERROR');
+// }
+
+
+
+// var age = prompt('Yoshingizni kiriting');
+
+// if( age >= 30 && age <= 50){
+//     console.log('Siz 30 va 50 ortasidagi yoshdasiz');
+// }
+
+
+
+let numberOfFilms = +prompt('Qancha film ko`rgansiz?');
+
+
+let personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+}
+
+
+let sawFilm = prompt('Oxirgi ko`rgan filimlaringizdan biri?');
+let priceFilm = +prompt('Uni qancha baholagan bo`lardingiz?');
+
+ console.log(personalMovieDB.movies + sawFilm + ' : ' + priceFilm);
+
 
