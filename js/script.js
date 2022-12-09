@@ -10,7 +10,7 @@ function pow (x,n){
     
 function sqrt(x,n){
     x =  8;
-    n = 2
+    n = 2;
     
     console.log(x ** 1/n);
     }
