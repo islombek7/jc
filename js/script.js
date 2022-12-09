@@ -16,25 +16,22 @@
 
 // personalMovieDB.movies[sawFilm] = priceFilm;
 
-
-// console.log(personalMovieDB.movies);
-
-
-let name = prompt("What is your name?");
-let surname = prompt("What is your surname");
-let age = +prompt("How old are you");
+function pow (x,n){
+    x = 3
+    n =2
     
-function setInfo(students) 
-    {
-        let infos = {
-             students: {
-                name: name,
-                surname: surname,
-                age: age,
-             }
-             }
-             console.log(infos);
+    console.log(x ** n)
     }
-     setInfo();
+    pow()
+    
+    
+    function sqrt(x,n){
+    x =  8
+    n = 2
+    
+    console.log(x ** 1/n)
+    }
+    sqrt()
+
 
 
