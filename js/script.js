@@ -1,20 +1,22 @@
+//indexof, includes, startsWith, endsWith, slice, substring, substr
 
-function pow (x,n){
-    x = 3;
-    n =2;
-    
-    console.log(x ** n);
+// function indexOf(str, searchString, pos = 0)
+
+
+// HomeWork-1 indexof
+
+function findIndex(str, Lorem){
+   let index = "OWA";
+   let inputs = 0;
+  for(let i = 0; i < str.length; i++) {
+    if(index[i]  !== Lorem ){
+      inputs++;
+    }else{
+      console.log(i);
+      break;
     }
-    pow();
-    
-    
-function sqrt(x,n){
-    x =  8;
-    n = 2;
-    
-    console.log(x ** 1/n);
-    }
-    sqrt();
+ }
+}
 
-
-
+findIndex(index, "W");
+ console.log( findIndex());
