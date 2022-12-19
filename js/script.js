@@ -1,15 +1,19 @@
 //push
-let Push = ['Banana' , 'Apple' , 'Orange' , 'Cherry'];
+
+let Push = ['Banana' , 'Apple' , 'Orange' , 'Cherry' ];
 function pushMathod (str, arr){
-  Push = [Push,10];
+  Push = [Push,'Apple'];
   return Push;
 }
 console.log(pushMathod(Push));
+
 //pop
-let Pop = [1, 2, 3, 4,5];
+
+let Pop = ['Banana' , 'Apple' , 'Orange' , 'Cherry'];
 function popMathod (arr){
-    for (i=arr.length-1; i>arr.length-2; i--){
+    for (i = arr.length-1; i > arr.length-2; i--){
       arr = arr[i];
-    } return arr;
+    } 
+    return arr;
   } 
 console.log(popMathod(Pop));
