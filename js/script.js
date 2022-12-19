@@ -1,39 +1,15 @@
-// slice
-
-let examplee = "Open web";
-
-function slice(str, start, end = str.length) {
- let result = '';
- for (; start < end; start++) {
-  result += str[start];
- }
- return result;
+//push
+let Push = ['Banana' , 'Apple' , 'Orange' , 'Cherry'];
+function pushMathod (str, arr){
+  Push = [Push,10];
+  return Push;
 }
-
-console.log(slice(examplee, 1, 6));
-
-// substring 
-
-let example1 = "Open web studycenter";
-
-function substring(str, start, end = str.length) {
- let result = '';
- for (; end < start; end++) {
-  result += str[end];
- }
- return result;
-}
-
-console.log(substring(example1, 8, 1));
-
-// substr 
-
-let example = 'Open Web' ;
-function myFunction( str, num, num1, ) {
-    let result1 = "";
-      for (i = num; i < num1; i++) {
-        result1 +=  str[i];
-      }
-      console.log(result1);
-    }
-    myFunction(example, 1, 4);
+console.log(pushMathod(Push));
+//pop
+let Pop = [1, 2, 3, 4,5];
+function popMathod (arr){
+    for (i=arr.length-1; i>arr.length-2; i--){
+      arr = arr[i];
+    } return arr;
+  } 
+console.log(popMathod(Pop));
